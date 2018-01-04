@@ -6,7 +6,7 @@ package ctci.chapter_16;
  */
 
 class Exercise_16_1 {
-    void solution(SwapNumberPair pair) {
+    void calcSolution(SwapNumberPair pair) {
         pair.num1 ^= pair.num2;
         pair.num2 ^= pair.num1;
         pair.num1 ^= pair.num2;
