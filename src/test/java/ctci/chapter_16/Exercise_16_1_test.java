@@ -10,7 +10,7 @@ public class Exercise_16_1_test {
     @Test
     public void test() {
         Random rnd = new Random();
-        for(int i=0;i<10;i++) {
+        for (int i = 0; i < 10; i++) {
             testRandomNumberSwap(rnd);
         }
     }
